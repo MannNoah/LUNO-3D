@@ -5,19 +5,32 @@ h1
 }
 body
 {
-  background-color: grey;
+  >background-color: #d3d3d3;
+  background-image: url("Bilder/visitenkarte front.png");
+  background-repeat: no-repeat;
+  background-position: center 80px;
 }
-#navigator
+ul
 {
-  background-color:
-
-}
-ul {
+  background-color: turquoise;
   list-style-type: none;
-  margin: 0;
+  width: 100%;
+  margin: 0 auto;
   padding: 0;
 }
-
-li {
+li
+{
+  margin: 0 auto;
   display: inline;
+}
+a
+{
+  color: black;
+	padding: .2em;
+  text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+	color: red;
 }
