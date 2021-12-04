@@ -1,4 +1,23 @@
+h1
+{
+  font-size: 48px;
+  font-style: normal;
+}
 body
 {
-  background-color: #d4d4d4
+  background-color: grey;
+}
+#navigator
+{
+  background-color:
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
 }
