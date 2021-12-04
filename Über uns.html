@@ -34,18 +34,36 @@
   padding: 5px;
 }
 
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Grau {
+  margin-right: 20%;
+}
+
+.name {
+  font-weight: 800;
+}
+
+.category {
+  font-weight: 600;
+}
+
+.text1 {
+  font-weight: 400;
+}
+
 .article-image {
   width: 100%
 }
 
 </style>
-
 </head>
 
 
-
 <body>
-
  <div class="Logo-Container">
    <img class="Logo-image" src="Bilder/visitenkarte front.png">
  </div>
@@ -53,12 +71,36 @@
  <h1 class="Headline">Über uns </h1>
 
  <div class="profile">
-   <h2>Noah Mann</h2>
-   <h2>Luis Grau</h2>
+   <div>
+     <h2>
+      <span class="name">Noah Mann</span> <br>
+      <span class="category">Alter:</span>
+      <span class="text1">18</span> <br>
+      <span class="category">Beruf:</span>
+      <span class="text1"> Schüler (Technisches Gymnasium, Schwäbisch Gmünd) </span> <br>
+      <span class="category">Hobbys:</span>
+      <span class="text1"> 3D-Druck, Tischtennis, Programmieren, Mountainbike </span> <br>
+     </h2>
+   </div>
+
+   <div class="Grau">
+     <h2>
+       <span class="name">Luis Grau</span> <br>
+       <span class="category">Alter: </span>
+       <span class="text1">17</span> <br>
+       <span class="category">Beruf:</span>
+       <span class="text1"> Schüler (Gymnasium Friedrich II, Lorch) </span> <br>
+       <span class="category">Hobbys:</span>
+       <span class="text1">Fußball, 3D-Druck, politisch interessiert </span> <br>
+     </h2>
+   </div>
  </div>
+<br>
+
+ <img class="article-image" src="Bilder/Zeitungsartikel.jpg">
+
 
 </body>
 
-<img class="article-image" src="Bilder/Zeitungsartikel.jpg">
 
 </html>
