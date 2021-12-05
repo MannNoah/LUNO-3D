@@ -3,25 +3,50 @@ h1
   font-size: 48px;
   font-style: normal;
 }
-body
+.main
 {
   >background-color: #d3d3d3;
   background-image: url("Bilder/visitenkarte front1.png");
   background-repeat: no-repeat;
-  background-position: center 80px;
+  background-position: center 150px;
+}
+.body_Produkte
+{
+  font-family: 'Roboto', sans-serif;
+  background-color: #D3D3D3;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.H1
+{
+  text-align: center;
+  font-size: 50px;
 }
 ul
 {
   background-color: turquoise;
   list-style-type: none;
   width: 100%;
-  margin: 0 auto;
-  padding: 0;
+  position: absolute right;
+    float: left;
+     left: 50%;
+     margin: 0 auto;
+     padding: 0;
+}
+.Headline
+{
+  display: flex;
+  justify-content: flex-start;
 }
 li
 {
-  margin: 0 auto;
   display: inline;
+  position: relative;
+  float: left;
+  right: -40%;
+  margin-right: 10px;
+  padding: 5px 10px;
+  list-style: none;
 }
 a
 {
@@ -33,4 +58,15 @@ a:hover
 {
 	text-decoration: underline;
 	color: red;
+}
+
+.Logo-Container
+{
+  background-color: black;
+  width: 100px;
+  padding: 5px;
+}
+.Logo-image
+{
+  width: 100px;
 }
