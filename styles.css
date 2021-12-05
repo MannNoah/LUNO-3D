@@ -10,18 +10,6 @@ h1
   background-repeat: no-repeat;
   background-position: center 150px;
 }
-.body_Produkte
-{
-  font-family: 'Roboto', sans-serif;
-  background-color: #D3D3D3;
-  padding-right: 100px;
-  padding-left: 100px;
-}
-.H1
-{
-  text-align: center;
-  font-size: 50px;
-}
 ul
 {
   background-color: turquoise;
@@ -32,11 +20,6 @@ ul
      left: 50%;
      margin: 0 auto;
      padding: 0;
-}
-.Headline
-{
-  display: flex;
-  justify-content: flex-start;
 }
 li
 {
@@ -58,15 +41,4 @@ a:hover
 {
 	text-decoration: underline;
 	color: red;
-}
-
-.Logo-Container
-{
-  background-color: black;
-  width: 100px;
-  padding: 5px;
-}
-.Logo-image
-{
-  width: 100px;
 }
