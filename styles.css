@@ -21,9 +21,9 @@ ul
 li
 {
   display: table-cell;
-  background-color: turquoise;
+  background-color: lightblue;
            border: none;
-           width: 25%; /* je nach Anzahl der li-Elemente anpassen */
+           width: 20%; /* je nach Anzahl der li-Elemente anpassen */
            text-align: center;
 }
 a
