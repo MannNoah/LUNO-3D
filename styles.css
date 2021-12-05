@@ -6,30 +6,25 @@ h1
 .main
 {
   >background-color: #d3d3d3;
-  background-image: url("Bilder/visitenkarte front1.png");
+  /*background-image: url("Bilder/visitenkarte front1.png");
   background-repeat: no-repeat;
   background-position: center 150px;
+  */
 }
 ul
 {
-  background-color: turquoise;
-  list-style-type: none;
-  width: 100%;
-  position: absolute right;
-    float: left;
-     left: 50%;
-     margin: 0 auto;
-     padding: 0;
+  border: none;
+          padding: 0;
+          display: table;
+          width: 100%;
 }
 li
 {
-  display: inline;
-  position: relative;
-  float: left;
-  right: -40%;
-  margin-right: 10px;
-  padding: 5px 10px;
-  list-style: none;
+  display: table-cell;
+  background-color: turquoise;
+           border: none;
+           width: 25%; /* je nach Anzahl der li-Elemente anpassen */
+           text-align: center;
 }
 a
 {
@@ -41,4 +36,8 @@ a:hover
 {
 	text-decoration: underline;
 	color: red;
+}
+.Logo
+{
+text-align: center;
 }
