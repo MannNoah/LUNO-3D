@@ -4,26 +4,48 @@
   <title> LUNO 3D </title>
 </head>
 <style>
+table, td{
+   border: 2px solid;
+   margin-top: 4%;
+}
+.links
+{
+  font-size: 170%;
+}
+.links-Seite
+{
+  display: flex;
+  justify-content: flex-start;
+}
 .Logo-image
 {
-  width: 100px;
+  width: 150px;
+}
+.banner-image1
+{
+  height: 140px;
+}
+.banner-image2
+{
+  height: 140px;
 }
 .logo
 {
   background-color: black;
-  height: 96px;
-  width: 106px;
+  height: 146px;
+  width: 156px;
   padding: 5px;
 }
 .banner
 {
-  background-color: grey;
-  height: 96px;
-  width: 500px;
+  height: 146px;
+  width: 100%;
+  font-size: 450%;
 }
 .banner-logo
 {
-  >justify-content: flex-start;
+display: flex;
+  justify-content: flex-start;
 }
 h1
 {
@@ -60,10 +82,16 @@ a
   text-decoration: none;
   font-size: 130%;
 }
+td:hover
+{
+  text-decoration: none;
+  color: red;
+}
 a:hover
 {
-    text-decoration: underline;
+    text-decoration: none;
     color: red;
+    font-size: 140%;
 }
 .Logo
 {
@@ -72,22 +100,34 @@ text-align: center;
 </style>
 <div class="banner-logo">
   <a href="Main.html"><img class="Logo-image" src="Bilder/visitenkarte front.png"> </a>
-Banner
+  <div class="banner">
+    <img class="banner-image1" src="Bilder/Streifen_1.png">
+    <img class="banner-image2" src="Bilder/Streifen_2.png">
   </div>
 </div>
 <body class="main">
-  <ul>
-    <a href="&Uuml;ber uns.html">Über uns</a>
-    <br>
-    <a href="Angebote.html">Angebote</a>
-    <br>
-    <a href="Produkte.html">Produkte</a>
-    <br>
-    <a href="Druckservice.html">Druckservice</a>
-    <br>
-    <a href="Kontakt.html">Kontakt</a>
-  </ul>
+  <div class="links-seite">
+  <table class="links">
+    <tr>
+      <td href="&Uuml;ber uns.html">Über uns</td>
+    </tr>
+    <tr>
+      <td href="Angebote.html">Angebote</td>
+    </tr>
+    <tr>
+      <td href="Produkte.html">Produkte</td>
+    </tr>
+    <tr>
+      <td href="Druckservice.html">Druckservice</td>
+    </tr>
+    <tr>
+      <td href="Kontakt.html">Kontakt</td>
+    </tr>
+  </table>
+  <div class="Seite">
 
+  </div>
+</div>
 
 
     <div>
