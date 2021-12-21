@@ -1,126 +1,188 @@
 <!DOCTYPE html>
-<html lang= >
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE-edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> LUNO 3D/Kontakte </title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <style>
-
-    body
-    {
-      font-family: 'Roboto', sans-serif;
-      background-color: white;
-      padding-right: 100px;
-      padding-left: 100px;
-    }
-
-    .Logo-image
-    {
-      width: 100px;
-    }
-
-    .Instagram-Logo
-    {
-      margin-top: 5%;
-      width: 40px;
-    }
-    .Facebook-Logo
-    {
-      margin-top: 5%;
-      margin-left: 5%;
-      width: 40px;
-    }
-    .ebay_Kleinanzeigen-Logo
-    {
-      margin-top: 5%;
-      margin-left: 5%;
-      width: 40px;
-    }
-    .Logo-Container
-    {
-
-      background-color: black;
-      width: 10%;
-      padding: 1%;
-    }
-
-    .Kontakt{
-      text-align: center;
-      font-size: 50px;
-    }
-    .Maps-Info{
-      margin-top: 8%;
-      display: flex;
-      >justify-content: space-around;
-    }
-    .Maps
-    {
-      margin-left: 15%;
-    }
-
-    a
-    {
-      font-size: 20px;
-      color: black;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    a:hover
-    {
-      font-size:22px;
-      color: red;
-      text-decoration: underline;
-      font-weight: 700;
-    }
-
-    b
-    {
-      font-size: 25px;
-      color: black;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-  </style>
+  <title> LUNO 3D </title>
 </head>
+<style>
+table, td{
+   border: 2px solid;
+   margin-top: 4%;
+}
+.links
+{
+  font-size: 170%;
+  height: 100%;
+  width: 12%;
+}
+.links-seite
+{
+  display: flex;
+  justify-content: flex-start;
+}
+.Logo-image
+{
+  width: 100%;
+}
+.Instagram-Logo
+{
+  margin-top: 5%;
+  width: 40px;
+}
+.Facebook-Logo
+{
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 40px;
+}
+.ebay_Kleinanzeigen-Logo
+{
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 40px;
+}
+.banner-image1
+{
+  height: 100%;
+  width: 100%;
+}
+.logo
+{
+  background-color: black;
+  height: 100%;
+  width: 20%;
+  padding: 5px;
+}
+.banner
+{
+  height: 100%;
+  width: 100%;
+  font-size: 450%;
+}
 
-<body>
-  <div class="Logo-Container">
-     <a href="Main.html"><img class="Logo-image" src="Bilder\visitenkarte front.png"></a>
+.Logo-container
+{
+  width: 10%;
+}
+.Seite
+{
+  margin-left:10%;
+}
+.banner-logo
+{
+display: flex;
+  justify-content: flex-start;
+}
+.Kontakt{
+  text-align: center;
+  font-size: 50px;
+}
+.Maps-Info{
+  margin-top: 8%;
+  display: flex;
+  >justify-content: space-around;
+}
+.Maps
+{
+  margin-left: 15%;
+}
+
+ul
+{
+  border: none;
+          padding: 0;
+          display: table;
+          width: 100%;
+}
+li
+{
+  display: table-cell;
+  background-color: lightblue;
+           border: none;
+           width: 20%; /* je nach Anzahl der li-Elemente anpassen */
+           text-align: center;
+}
+b
+{
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+a
+{
+  color: black;
+    padding: .2em;
+  text-decoration: none;
+  font-size: 130%;
+}
+td:hover
+{
+  text-decoration: none;
+  color: blue;
+}
+a:hover
+{
+  text-decoration: bold;
+  color: blue;
+  font-size: 136%;
+}
+</style>
+<div class="banner-logo">
+  <div class="Logo-container">
+  <a href="Main.html"><img class="Logo-image" src="Bilder/visitenkarte front.png"></a>
+</div>
+  <div class="banner">
+    <img class="banner-image1" src="Bilder/Streifen 1&2.png">
   </div>
-
-  <h1 class="Kontakt">
-  KONTAKT
-  </h1>
- <div class="Maps-Info">
-<div class="Info">
+</div>
+<body class="main">
+  <div class="links-seite">
+  <table class="links">
+    <tr>
+      <td> <a href="&Uuml;ber uns.html">Über uns</a></td>
+    </tr>
+    <tr>
+      <td> <a href="Angebote.html">Angebote</a></td>
+    </tr>
+    <tr>
+      <td> <a href="Produkte.html">Produkte</a></td>
+    </tr>
+    <tr>
+      <td> <a href="Druckservice.html">Druckservice </a></td>
+    </tr>
+    <tr>
+      <td> <a href="Kontakt.html">Kontakt</a></td>
+    </tr>
+  </table>
+  <div class="Seite">
+    <h1 class="Kontakt">
+    KONTAKT
+    </h1>
+   <div class="Maps-Info">
+  <div class="Info">
+    <b>
+   Noah Mann und Luis Grau
+    </b>
+    <b>
+   <br> <br> E-Mail:
+    </b>
+  <br><a href="mailto: LuNo3d@gmx.de">LuNo3d@gmx.de</a>
   <b>
- Noah Mann und Luis Grau
+  <br> <br> Telefon:
   </b>
+  <br><a href="tel: 123456789">123456789</a>
   <b>
- <br> <br> E-Mail:
-  </b>
-<br><a href="mailto: LuNo3d@gmx.de">LuNo3d@gmx.de</a>
-<b>
-<br> <br> Telefon:
-</b>
-<br><a href="tel: 123456789">123456789</a>
-<b>
-<br> <br> Social Media:
-</<b>
-<br><a href="https://www.instagram.com/luno3d_official/"target="_blank"><img class="Instagram-Logo" src="Bilder\Instagram Logo.png"</a>
-<a href="https://www.facebook.com/luno3d"target="_blank"><img class="Facebook-Logo" src="Bilder\Facebook Logo.png"</a>
-<a href="https://www.ebay-kleinanzeigen.de/s-bestandsliste.html?userId=85346009" target="_blank"> <img class="ebay_Kleinanzeigen-Logo"src="Bilder/ebay_Kleinanzeigen.jpg" alt="Ebay Kleinanzeigen"</a>
+  <br> <br> Social Media:
+  </<b>
+  <br><a href="https://www.instagram.com/luno3d_official/"target="_blank"><img class="Instagram-Logo" src="Bilder\Instagram Logo.png"</a>
+  <a href="https://www.facebook.com/luno3d"target="_blank"><img class="Facebook-Logo" src="Bilder\Facebook Logo.png"</a>
+  <a href="https://www.ebay-kleinanzeigen.de/s-bestandsliste.html?userId=85346009" target="_blank"> <img class="ebay_Kleinanzeigen-Logo"src="Bilder/ebay_Kleinanzeigen.jpg" alt="Ebay Kleinanzeigen"</a>
 
 
-   </div>
-   <iframe class="Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d585.2924902661993!2d9.598154655715039!3d48.80337240095795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799b000a969d019%3A0xbfcc736f832a2214!2sRoseggerweg%206%2C%2073655%20Pl%C3%BCderhausen!5e0!3m2!1sde!2sde!4v1638652885956!5m2!1sde!2sde" width="250%" height="135%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-   </div>
-
+     </div>
+     <iframe class="Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d585.2924902661993!2d9.598154655715039!3d48.80337240095795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799b000a969d019%3A0xbfcc736f832a2214!2sRoseggerweg%206%2C%2073655%20Pl%C3%BCderhausen!5e0!3m2!1sde!2sde!4v1638652885956!5m2!1sde!2sde" width="250%" height="135%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     </div>
+  </div>
+</div>
 </body>
-
 </html>
