@@ -33,27 +33,43 @@
   }
 .Info
 {
+  flaot right;
   width: 40%;
-
 }
 .Farben
 {
   margin-right: 5%;
   margin-top: 7%;
 }
+.formular
+{
+  float: left;
+  width: 30%;
+  margin-right: 3.33333%;
+  padding: 20px;
+}
+
+.insgesamt
+{
+  display: flex;
+  justify-content: space-between;
+}
 
 </style>
-</head>
 
+</head>
 <body>
   <div class="Logo-Container">
     <a href="Main.html"><img class="Logo-image" src="Bilder/visitenkarte front.png"> </a>
   </div>
 
   <h1 class="Headline">Druckservice</h1>
+<div class="insgesamt">
 
-  <div class="Info">
-    LuNo3D bietet Ihnen einen professionellen 3D-Druck-Service zu fairen und transparenten Preisen. Durch unsere große Vielfalt an Druckern und Materialien ist es möglich, für jedes Teil das perfekte Material und eine bestmögliche Einstellung zu finden, um ein gelungenes Ergebnis herzustellen. Unsere Materialien und Farben finden Sie hier aufgelistet, bei weiteren Wünschen und Anregungen stehen wir jederzeit zur Verfügung und setzen alles daran, zu ihrer vollsten Zufriedenheit zu arbeiten.
+<div class="Info">
+    LuNo3D bietet Ihnen einen professionellen 3D-Druck-Service zu fairen und transparenten Preisen. Durch unsere große Vielfalt an Druckern und Materialien ist es möglich,
+    für jedes Teil das perfekte Material und eine bestmögliche Einstellung zu finden, um ein gelungenes Ergebnis herzustellen. Unsere Materialien und Farben finden Sie hier
+    aufgelistet, bei weiteren Wünschen und Anregungen stehen wir jederzeit zur Verfügung und setzen alles daran, zu ihrer vollsten Zufriedenheit zu arbeiten.
 <h3>Material:</h3>
 <ul>
   PLA
@@ -71,18 +87,19 @@
   <img src="Bilder/pla-175mm-filament-green.jpg" class="Farben" alt="Grün" width="10%" height="20%">
   <img src="Bilder/pla-175mm-filament-red.jpg" class="Farben" alt="Rot" width="10%" height="20%">
 </div>
+</div>
+
+<div class="formular">
 
 <form class="" action="index.html" method="post">
-
-<div class="formul">
 
 <div class="">
   <label for="name">Name</label>
   <input type="text" name="name" id="name" size="">
-  </div>
+</div>
 <br>
 <div class="">
-  <label for="email">Email</label>
+  <label for="email">E-Mail</label>
   <input type="email" name="email" id="email" required value="">
 </div>
 
@@ -104,10 +121,8 @@
 
 <button type="sumbit" name="button">Senden</button>
 
-</div>
-
 </form>
-
-  </div>
+</div>
+</div>
 </body>
 </html>
