@@ -9,7 +9,7 @@
 <style>
 h2
 {
-  font-size: 190%;
+  font-size: 230%;
 }
   body
   {
@@ -97,7 +97,7 @@ h2
 
 <h2>Kontaktformular</h2><br>
 
-<form class="" action="mailto: noah-mann@t-online.de" method="post">
+<form class="" action="emailtest.php" method="post" target="ausgabe">
 
 <div class="">
   <label for="name">Name</label>
@@ -132,9 +132,19 @@ h2
 
 <br>
 
-<button type="sumbit" name="button">Senden</button>
+<button type="submit" name="button">Senden</button>
+<button type="reset" name="button">Zurücksetzen</button>
 
 </form>
+
+<div class="" id="ausgabe" hidden>
+  <?php>
+if(isset($_POST["submit"])){
+  $vorname = $_POST["name"]
+}
+  ?>
+</div>
+
 </div>
 </div>
 </body>
