@@ -1,42 +1,130 @@
 <!DOCTYPE html>
-<html lang= >
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE-edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> LUNO 3D Produkte </title>
+  <title> Angebote </title>
+</head>
 <style>
-  body
-  {
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  .Logo-image
-  {
-      width: 100px;
-  }
+table, td{
+   border: 2px solid;
+   margin-top: 4%;
+}
+.links
+{
+  font-size: 170%;
+}
+.links-seite
+{
+  display: flex;
+  justify-content: flex-start;
+}
+.Logo-image
+{
+  width: 100%;
+}
+.überschrift
+{
+  float: right;
+  width: 60%;
+  font-size: 130%;
+  margin-left: 10%;
+}
+.banner-image1
+{
+  height: 100%;
+  width: 100%;
+}
+.logo
+{
+  background-color: black;
+  height: 100%;
+  width: 20%;
+  padding: 5px;
+}
+.banner
+{
+  height: 100%;
+  width: 100%;
+  font-size: 450%;
+}
 
-  .Headline
-  {
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-  }
+.Logo-container
+{
+  width: 10%;
+}
 
-  .Logo-Container
-  {
-    background-color: black;
-    width: 100px;
-    padding: 5px;
-  }
-  </style>
-  </head>
-  <body>
-    <div class="Logo-Container">
-      <a href="Main.html"><img class="Logo-image" src="Bilder/visitenkarte front.png"> </a>
-    </div>
-    <h1 class="Headline">Angebote</h1>
-    </body>
-  </html>
+.banner-logo
+{
+display: flex;
+  justify-content: flex-start;
+}
+
+a
+{
+  color: black;
+    padding: .2em;
+  text-decoration: none;
+  font-size: 130%;
+}
+td:hover
+{
+  text-decoration: none;
+  color: blue;
+}
+a:hover
+{
+  text-decoration: bold;
+  color: blue;
+  font-size: 130%;
+}
+h1
+{
+  font-size: 280%;
+}
+.angebote
+{
+
+}
+</style>
+<div class="banner-logo">
+  <div class="Logo-container">
+  <a href="Main.html"><img class="Logo-image" src="Bilder/visitenkarte front.png"></a>
+</div>
+  <div class="banner">
+    <img class="banner-image1" src="Bilder/Streifen 1&2.png">
+  </div>
+</div>
+<body class="main">
+
+<div class="überschrift">
+  <h1>Angebote</h1>
+</div>
+
+  <div class="links-seite">
+  <table class="links">
+    <tr>
+      <td> <a href="&Uuml;ber uns.html">Über uns</a></td>
+    </tr>
+    <tr>
+      <td> <a href="Angebote.html">Angebote</a></td>
+    </tr>
+    <tr>
+      <td> <a href="Produkte.html">Produkte</a></td>
+    </tr>
+    <tr>
+      <td> <a href="Druckservice.html">Druckservice</a></td>
+    </tr>
+    <tr>
+      <td> <a href="Kontakt.html">Kontakt</a></td>
+    </tr>
+  </table>
+</div>
+<div class="angebote">
+  <ul>
+<li> Retouren Reparaturen </li>
+<li>Verkauf von Druckern und Materialien</li>
+<li>Einführungs- und Fortbildungskurse</li>
+<li>Reparaturen von Privatgeräten</li>
+ </ul>
+</div>
+</body>
+</html>
