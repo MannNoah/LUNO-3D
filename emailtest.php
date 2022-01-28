@@ -8,8 +8,21 @@
   </head>
   <body>
     <?php
-    $empfaenger = "noah-mann@t-online.de"
-    $betreff = "formular test"
+    $empfaenger = "noah-mann@t-online.de";
+    $betreff = "Kontaktformular";
+    $from = "From: ";
+    $from .= $POST ['name'];
+    $from .= " <";
+    $from .= $_POST ['email']:
+    $from . = ">\n";
+    $from .= "Reply-To: "
+    $from . = $_POST ['email'];
+    $from .= "\n";
+    $from .= "Content-Type: text\html\n";
+    $text = $_POST ['Kommentar'];
+
+    mail ($empfaenger, $betreff, $text, $from);
+    echo "Vielen Dank";
     ?>
   </body>
 </html>
