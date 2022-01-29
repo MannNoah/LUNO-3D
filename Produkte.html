@@ -13,18 +13,83 @@
     padding-left: 100px;
     padding-right: 100px;
   }
+
+  table, td{
+    border: 2px solid;
+    margin-top: 4%;
+}
+
+td:hover
+{
+  text-decoration: none;
+  color: blue;
+}
+
+a
+{
+  color: black;
+  padding: .2em;
+  text-decoration: none;
+  font-size: 130%;
+}
+
+a:hover
+{
+  text-decoration: bold;
+  color: blue;
+  font-size: 136%;
+}
+
   h2
   {
     font-size: 320%;
   }
+
   h3
   {
     font
   }
+
   .Logo-image
   {
       width: 100px;
   }
+
+  .banner-image1
+  {
+    height: 100%;
+    width: 100%;
+  }
+  .logo
+  {
+    background-color: black;
+    height: 100%;
+    width: 20%;
+    padding: 5px;
+  }
+  .banner
+  {
+    height: 100%;
+    width: 100%;
+    font-size: 450%;
+  }
+
+  .Logo-container
+  {
+    width: 10%;
+  }
+
+  .Seite
+  {
+    margin-left:10%;
+  }
+
+  .banner-logo
+  {
+    display: flex;
+    justify-content: flex-start;
+  }
+
 
   .Headline
   {
@@ -33,12 +98,13 @@
     font-size: 450%;
   }
 
-  .Logo-Container
+  .links
   {
-    background-color: black;
-    width: 100px;
-    padding: 5px;
+    font-size: 170%;
+    height: 100%;
+    width: 12%;
   }
+
 .H2
 {
   text-align: center;
@@ -65,15 +131,15 @@ a
   text-decoration: none;
   color: black;
 }
-a:hover
-{
-  color: red;
-  text-decoration: underline;
-}
+
 .bilder
 {
   margin-top: 10%;
+  justify-content: center;
 }
+
+
+
 .Farben
 {
   margin-right: 5%;
@@ -106,20 +172,66 @@ a:hover
 </head>
 
 <body>
+ <div class="banner-logo">
   <div class="Logo-Container">
     <a href="Main.html"><img class="Logo-image" src="Bilder/visitenkarte front.png"> </a>
   </div>
+  <div class="banner">
+    <img class="banner-image1" src="Bilder/Streifen 1&2.png">
+  </div>
+</div>
+<div class="links-seite">
+  <table class="links">
+    <tr>
+      <td> <a href="&Uuml;ber uns.html">Über uns</a></td>
+    </tr>
+    <tr>
+      <td> <a href="Angebote.html">Angebote</a></td>
+    </tr>
+    <tr>
+      <td> <a href="Produkte.html">Produkte</a></td>
+    </tr>
+    <tr>
+      <td> <a href="Druckservice.html">Druckservice </a></td>
+    </tr>
+    <tr>
+      <td> <a href="Kontakt.html">Kontakt</a></td>
+    </tr>
+  </table>
+
+  <div class="Seite">
   <h1 class="Headline">Produkte</h1>
   <div class="H2">
     <h2>FDM 3D Drucker</h2>
-    <br>
-    <br>
-  </div class="bilder">
-    <h3> Anycubic Mega X </h3>
-      <a href="https://www.ebay-kleinanzeigen.de/s-anzeige/anycubic-mega-x-fdm-3d-drucker/1938118197-168-17598" target="_blank"><img src="Bilder/MegaX.jpg" alt ="Anycubic Mega X" width="40%" height="40%">
+  </div>
+
+  <h3> Anycubic Mega X </h3>
+
+  <div class="bilder">
+
+    <div class="beschreibung">
+      <ul>
+        <br>
+        <li>Druckraum: 300 x 300 x 305 mm</li>
+        <li>Betriebstemperatur des Extruders: Max. 250 ° C.</li>
+        <li>Betriebstemperatur des Druckbettes: Max. 90 ° C.</li>
+        <li>Druckgeschwindigkeit: 20 ~ 100 mm / s (empfohlene 60 mm / s)</li>
+        <li>Unterstützte Druckmaterialien: PLA, ABS, TPU, HIPS, Holz, PETG</li>
+        <li>Schichtauflösung: 0,05-0,3 mm</li>
+        <li>Nettogewicht: ~ 19 kg</li>
+      </ul>
+    </div>
+      <a href="https://www.ebay-kleinanzeigen.de/s-anzeige/anycubic-mega-x-fdm-3d-drucker/1938118197-168-17598" target="_blank"><img src="Bilder/MegaX.jpg" alt ="Anycubic Mega X" width="39%">
       </a>
-      <div class="beschreibung">
-        <ul>
+  </div>
+<br><br>
+
+  <h3>Anycubic i3 Mega</h3>
+
+  <div class="bilder">
+    <div class="beschreibung">
+      <ul>
+        <br>
           <li>Druckraum: 300 x 300 x 305 mm</li>
           <li>Betriebstemperatur des Extruders: Max. 250 ° C.</li>
           <li>Betriebstemperatur des Druckbettes: Max. 90 ° C.</li>
@@ -127,48 +239,41 @@ a:hover
           <li>Unterstützte Druckmaterialien: PLA, ABS, TPU, HIPS, Holz, PETG</li>
           <li>Schichtauflösung: 0,05-0,3 mm</li>
           <li>Nettogewicht: ~ 19 kg</li>
-        </ul>
-      </div>
-      <div class="bilder">
-        <h3>Anycubic i3 Mega</h3>
-        <a href="https://www.ebay-kleinanzeigen.de/s-anzeige/anycubic-i3-mega-s/1917609267-168-17598" target="_blank"><img src="Bilder/Anycubic-i3-Mega.jpg" alt="Anycubic i3 Mega"width="40%" height="40%">
-</a>
-<div class="beschreibung">
-  <ul>
-    <li>Druckraum: 300 x 300 x 305 mm</li>
-    <li>Betriebstemperatur des Extruders: Max. 250 ° C.</li>
-    <li>Betriebstemperatur des Druckbettes: Max. 90 ° C.</li>
-    <li>Druckgeschwindigkeit: 20 ~ 100 mm / s (empfohlene 60 mm / s)</li>
-    <li>Unterstützte Druckmaterialien: PLA, ABS, TPU, HIPS, Holz, PETG</li>
-    <li>Schichtauflösung: 0,05-0,3 mm</li>
-    <li>Nettogewicht: ~ 19 kg</li>
-  </ul>
-</div>
+      </ul>
+    </div>
+    <a href="https://www.ebay-kleinanzeigen.de/s-anzeige/anycubic-i3-mega-s/1917609267-168-17598" target="_blank"><img src="Bilder/Anycubic-i3-Mega.jpg" alt="Anycubic i3 Mega"width="39%" height="40%">
+    </a>
   </div>
+<br><br>
+
   <div class="bilder">
     <h3>Anycubic i3 Mega S</h3>
-    <a href="https://www.ebay-kleinanzeigen.de/s-anzeige/anycubic-i3-mega-s-fdm-3d-drucker/1832474958-168-17598" target="_blank"><img src="Bilder/MegaS.jpg" alt="Anycubic i3 Mega S"width="40%" height="40%">
+    <div class="beschreibung">
+      <ul>
+        <br>
+        <li>Druckraum: 210 x 210 x 205 mm</li>
+        <li>Betriebstemperatur des Extruders: Max. 260 ° C.</li>
+        <li>Betriebstemperatur des Druckbettes: Max. 110 ° C.</li>
+        <li>Druckgeschwindigkeit: 20 ~ 100 mm / s (empfohlene 60 mm / s)</li>
+        <li>Unterstützte Druckmaterialien: PLA, ABS, TPU, HIPS, Holz, PETG</li>
+        <li>Schichtauflösung: 0,05-0,3 mm</li>
+        <li>Nettogewicht: ~ 16,5 kg</li>
+      </ul>
+    </div>
+    <a href="https://www.ebay-kleinanzeigen.de/s-anzeige/anycubic-i3-mega-s-fdm-3d-drucker/1832474958-168-17598" target="_blank"><img src="Bilder/MegaS.jpg" alt="Anycubic i3 Mega S"width="39%" height="40%">
       </a>
-      <div class="beschreibung">
-        <ul>
-          <li>Druckraum: 210 x 210 x 205 mm</li>
-          <li>Betriebstemperatur des Extruders: Max. 260 ° C.</li>
-          <li>Betriebstemperatur des Druckbettes: Max. 110 ° C.</li>
-          <li>Druckgeschwindigkeit: 20 ~ 100 mm / s (empfohlene 60 mm / s)</li>
-          <li>Unterstützte Druckmaterialien: PLA, ABS, TPU, HIPS, Holz, PETG</li>
-          <li>Schichtauflösung: 0,05-0,3 mm</li>
-          <li>Nettogewicht: ~ 16,5 kg</li>
-        </ul>
-      </div>
+
     <a href="https://www.ebay-kleinanzeigen.de/s-anzeige/anycubic-i3-mega-s/1917609267-168-17598" target="_blank"><input type="button" class="buttongebraucht" value="Gebraucht"></a>
     <a href="https://www.ebay-kleinanzeigen.de/s-anzeige/anycubic-i3-mega-s-fdm-3d-drucker/1832474958-168-17598" target="_blank"><input type="button" class="buttonneu1" value="Neu"></a>
     </div>
 
+<br><br>
+
     <div class="bilder">
       <h3>Anycubic Mega Pro</h3>
-      <a href="" target="_blank"><img src="Bilder/MegaPro.jpg" alt="Anycubic Mega Pro"width="40%" height="40%"> </a>
       <div class="beschreibung">
         <ul>
+          <br>
           <li>Druckraum: 210 x 210 x 205 mm</li>
           <li>Betriebstemperatur des Extruders: Max. 260 ° C.</li>
           <li>Betriebstemperatur des Druckbettes: Max. 110 ° C.</li>
@@ -178,23 +283,28 @@ a:hover
           <li>Nettogewicht: ~ 15 kg</li>
         </ul>
       </div>
+        <a href="" target="_blank"><img src="Bilder/MegaPro.jpg" alt="Anycubic Mega Pro"width="39%" height="40%"> </a>
+
       <a href="index.html" target="_blank"><input type="button" class="buttongebraucht" value="Gebraucht"></a>
       <a href="index.html" target="_blank"><input type="button" class="buttonneu1" value="Neu"></a>
     </div>
+
+<br><br>
+
     <div class="bilder">
       <h3>Anycubic Chiron </h3>
       <a href="https://www.ebay-kleinanzeigen.de/s-anzeige/anycubic-chiron-fdm-3d-drucker/1937085615-168-17598" target="_blank"> <img src="Bilder/Chiron.jpg" alt="Anycubic Chiron" width="40%"height="40%">
         </a>
+    </div>
 
-        </div>
-        <p>
-          <br>
+<br><br>
+
         <div class="bilder">
           <h3>Sunlu S8 Plus</h3>
-          <a href="https://www.ebay-kleinanzeigen.de/s-anzeige/sunlu-s8-plus-3d-drucker/1825910775-168-17598" target="_blank"> <img src="Bilder/Sunlu_S8_Plus.jpg" alt="Sunlu S8 Plus" width="40%" height="40%">
-            </a>
+
             <div class="beschreibung">
               <ul>
+                <br>
                 <li>Druckraum: 310 x 310 x 400 mm</li>
                 <li>Betriebstemperatur des Extruders: Max. 260 ° C.</li>
                 <li>Betriebstemperatur des Druckbettes: Max. 110 ° C.</li>
@@ -204,13 +314,13 @@ a:hover
                 <li>Nettogewicht: ~ 15 kg</li>
               </ul>
             </div>
+            <a href="https://www.ebay-kleinanzeigen.de/s-anzeige/sunlu-s8-plus-3d-drucker/1825910775-168-17598" target="_blank"> <img src="Bilder/Sunlu_S8_Plus.jpg" alt="Sunlu S8 Plus" width="39%" height="40%">
+              </a>
           </div>
+
           <div class="H2zubehör">
-            <br>
-            <br>
             <h2>Filamente</h2>
-            <br>
-            <br>
+
           </div>
 <h3>Sunlu Filament</h3>
 <img src="Bilder/pla-175mm-filament-red.jpg" alt="Pla 1.75mm Filament red" width="20%" height="20%">
@@ -235,22 +345,21 @@ a:hover
     <br>
 </div>
 <p>
-  <br>
-  <br>
-  <br>
-  <br>
+  <br><br>
           <div class="H2zubehör">
-            <br>
-            <br>
-            <br>
+            <br><br>
             <h2>Zubehör</h2>
-            <br>
-            <br>
           </div>
           <div class="bilder">
             <h3>Sunlu Filament Trockner</h3>
             <a href="https://www.ebay-kleinanzeigen.de/s-anzeige/sunlu-filament-trockner-neu/1825935846-168-17598" target="_blank"> <img src="Bilder/Sunlu_Filament_Trockner.jpg" alt="Sunlu Filament Trockner" width="40%" height="40%">
             </a>
           </div>
+
+<br><br>
+
+
+</div>
+</div>
 </body>
 </html>
