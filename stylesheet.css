@@ -1,24 +1,27 @@
 .container
 {
   display: grid;
-  grid-template-columns: 2vh 20vh 66vh 10vh 2vh;
-  grid-template-rows: 1fr 20% 50% 20% 1fr;
+  grid-template-columns:2% 15% 81% 2%;
+  grid-template-rows: 2vh 5vh 80ch 6vh 2vh;
   grid-auto-flow: row;
   margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
   border: 1px solid black;
 }
 header
 {
-  grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column: 2/4;
   grid-row-start:2;
   grid-row-end: 3;
   background-color: blue;
 }
+.img1
+{
+  width: 100%;
+  height: auto;
+}
 nav
 {
-  grid-column: 3/4;
-  grid-row: 2/3;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: green;
 }
